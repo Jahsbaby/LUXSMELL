@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXSMELL</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 text-green-500">
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 text-white">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo and name -->
+      <div class="flex items-center">
+        <img src="img/logo.png" alt="Perfume Logo" class="h-8 w-8 sm:h-10 sm:w-10">
+        <span class="ml-2 sm:ml-3 text-lg sm:text-xl font-bold"></span>
+      </div>
+
+      <!-- Navbar links -->
+      <nav class="hidden md:flex space-x-4 lg:space-x-8">
+        <a href="#" class="hover:text-yellow-300">All Products</a>
+        <a href="#" class="hover:text-yellow-300">Brands</a>
+        <a href="#" class="hover:text-yellow-300">New Arrivals</a>
+        <a href="#" class="hover:text-yellow-300">Sales</a>
+        <div class="relative group">
+          <button class="hover:text-green-300">More</button>
+          <!-- Dropdown -->
+          <div class="absolute hidden group-hover:block bg-green-700 mt-2 rounded-md py-2 shadow-lg w-40">
+            <a href="#" class="block px-4 py-2 hover:bg-green-600">About Us</a>
+            <a href="#" class="block px-4 py-2 hover:bg-green-600">Contact</a>
+            <a href="#" class="block px-4 py-2 hover:bg-green-600">FAQs</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button class="md:hidden text-green-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+          stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-[500px] lg:min-h-[600px] flex items-center">
+    <!-- Background image with overlay -->
+    <div class="absolute inset-0 bg-[url('img/body img.jpg')] bg-cover bg-center bg-no-repeat">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    </div>
+    
+    <!-- Content -->
+    <div class="container mx-auto px-4 relative">
+      <div class="max-w-2xl text-white">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Luxsmell's Premier Destination for Luxury Fragrances</h1>
+        <p class="mb-6 text-base sm:text-lg opacity-90">
+          Immerse yourself in an enchanting world of signature scents handpicked for elegance and allure. From timeless icons to rare,
+          exclusive masterpieces—find your perfect fragrance and leave a lasting impression.
+        </p>
+        <button class="px-6 py-3 bg-gradient-to-r from-green-500 to-yellow-500 text-white rounded-md font-semibold hover:opacity-90 transform transition hover:scale-105">
+          Find Your Signature Scent
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-8 sm:py-12 bg-green-500 text-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Feature 1 -->
+        <div class="text-center p-4">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">Unmatched Customer Care</h3>
+          <p class="text-sm sm:text-base">Experience personalized attention and expert guidance, 
+            ensuring your fragrance journey is seamless and unforgettable.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="text-center p-4">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">A World of Scents</h3>
+          <p class="text-sm sm:text-base">Explore over 1,000 curated fragrances, each a gateway to a new sensory adventure.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="text-center p-4">
+          <h3 class="text-lg sm:text-xl font-bold mb-2">Empowering Excellence</h3>
+          <p class="text-sm sm:text-base">A proudly woman-owned enterprise delivering sophistication and style.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500 text-white py-8 sm:py-12">
+    <div class="container mx-auto px-4">
+      <!-- Logo and Description -->
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 sm:w-12 sm:h-12">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2.25c1.242 0 2.25 1.008 2.25 2.25h-4.5c0-1.242 1.008-2.25 2.25-2.25zM9.75 4.5h4.5a.75.75 0 01.75.75v1.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75V5.25a.75.75 0 01.75-.75zM4.5 10.5h15a.75.75 0 01.75.75v9a.75.75 0 01-.75.75h-15a.75.75 0 01-.75-.75v-9a.75.75 0 01.75-.75z" />
+          </svg>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-bold">Luxsmell</h2>
+        <p class="mt-2 text-xs sm:text-sm">Unveiling timeless scents that define sophistication and style. Join us in creating unforgettable memories.</p>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <!-- Explore Section -->
+        <div class="text-center sm:text-left">
+          <h3 class="font-semibold text-lg mb-2">Explore</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Our Story</a></li>
+            <li><a href="#" class="hover:underline">Collections</a></li>
+            <li><a href="#" class="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Support -->
+        <div class="text-center sm:text-left">
+          <h3 class="font-semibold text-lg mb-2">Customer Support</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">FAQ</a></li>
+            <li><a href="#" class="hover:underline">Shipping Policy</a></li>
+            <li><a href="#" class="hover:underline">Returns & Exchanges</a></li>
+            <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="text-center lg:text-left">
+          <h3 class="font-semibold text-lg mb-2">Stay Connected</h3>
+          <p class="text-xs sm:text-sm mb-4">Join our newsletter for the latest offers, trends, and tips to embrace your unique essence.</p>
+          <form class="flex max-w-md mx-auto lg:mx-0">
+            <input type="email" placeholder="Your Email" class="flex-grow p-2 rounded-l-md focus:outline-none text-green-800 text-sm">
+            <button class="bg-green-500 hover:bg-green-500 px-4 py-2 rounded-r-md text-white font-bold text-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="flex justify-center mt-8 space-x-4">
+        <a href="#" class="hover:opacity-75 transition-opacity"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5 sm:w-6 sm:h-6"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.892-4.787 4.657-4.787 1.324 0 2.462.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.729 0 1.322-.593 1.322-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a>
+        <a href="#" class="hover:opacity-75 transition-opacity"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5 sm:w-6 sm:h-6"><path d="M24 4.557a9.826 9.826 0 01-2.828.775 4.94 4.94 0 002.165-2.724 9.89 9.89 0 01-3.127 1.195A4.92 4.92 0 0016.616 3c-2.723 0-4.926 2.203-4.926 4.925 0 .386.044.76.127 1.122C7.728 8.865 4.1 7.103 1.671 4.149c-.422.722-.664 1.562-.664 2.457 0 1.698.866 3.197 2.181 4.075a4.902 4.902 0 01-2.23-.615v.062c0 2.372 1.686 4.348 3.918 4.796a4.936 4.936 0 01-2.224.084 4.927 4.927 0 004.6 3.417 9.864 9.864 0 01-6.102 2.105c-.396 0-.787-.023-1.175-.068A13.905 13.905 0 007.548 21c9.057 0 14.01-7.502 14.01-14.01 0-.213-.005-.425-.015-.636A9.987 9.987 0 0024 4.557z"/></svg></a>
+        <a href="#" class="hover:opacity-75 transition-opacity"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5 sm:w-6 sm:h-6"><path d="M12 2.163c3.204 0 5.794 2.591 5.794 5.795 0 3.204-2.59 5.794-5.794 5.794S6.205 11.162 6.205 7.958c0-3.204 2.59-5.795 5.794-5.795m0-2.163C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 18c-3.312 0-6-2.688-6-6s2.688-6 6-6 6 2.688 6 6-2.688 6-6 6z"/></svg></a>
+      </div>
+
+      <!-- Footer Note -->
+      <p class="text-center mt-8 text-xs sm:text-sm">© 2025 Luxsmell. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
